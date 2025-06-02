@@ -6,7 +6,6 @@ import ufl
 from dolfinx import fem, io, mesh, plot, default_scalar_type
 from ufl import grad, inner, dot
 
-import dolfinx_mpc.utils
 from dolfinx_mpc import LinearProblem, MultiPointConstraint
 import pyvista
 
